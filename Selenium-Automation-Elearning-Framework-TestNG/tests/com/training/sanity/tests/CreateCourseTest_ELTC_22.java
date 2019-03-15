@@ -55,23 +55,16 @@ public class CreateCourseTest_ELTC_22 {
 		CreateCoursePOM.sendPassword("admin@1234");
 		CreateCoursePOM.clickLoginBtn(); 
 		CreateCoursePOM.clickAdminTab();
-		//DeleteCoursePOM.clickCourseList();
 		CreateCoursePOM.clickCreateACourse();
-		CreateCoursePOM.enterTitle("DataStructure_Muthu123");
+		CreateCoursePOM.enterTitle("DataStructure_Muthu1245");
 		CreateCoursePOM.clickSubmit();
-		//DeleteCoursePOM.clickDeleteCourse();
 		screenShot.captureScreenShot("First");
+		
 		
 		
 	}
 	
 	
-	/*public void clickAdministrationTab(WebElement Administration) {
-		Actions action = new Actions(driver);
-        //WebElement we_Next = driver.findElement(By.xpath("//span[contains(text(),'Next')]"));
-        action.moveToElement(Administration).perform();
-        Administration.click();
-	*/
 	
 	
 }

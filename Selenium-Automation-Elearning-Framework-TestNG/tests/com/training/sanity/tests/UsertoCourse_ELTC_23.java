@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -60,11 +61,13 @@ public class UsertoCourse_ELTC_23 {
 		UserToCoursePOM.clickSelectUser();
 		UserToCoursePOM.clickSelectCourse();
 		screenShot.captureScreenShot("Add course to User");
-		UserToCoursePOM.clickAddtoCourse();
+		//UserToCoursePOM.clickAddtoCourse();
 		
 		System.out.println("The selected users are subscribed to the selected course");
-
+	
+		
 	}
 
+		
 }
 

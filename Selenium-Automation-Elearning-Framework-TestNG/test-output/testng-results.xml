@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="102334" started-at="2019-03-20T13:05:55Z" finished-at="2019-03-20T13:07:37Z">
+  <suite name="Default suite" duration-ms="18453" started-at="2019-04-04T20:40:34Z" finished-at="2019-04-04T20:40:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="102334" started-at="2019-03-20T13:05:55Z" finished-at="2019-03-20T13:07:37Z">
-      <class name="com.training.sanity.tests.CareerPromotionTest_ELTC_55">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.CareerPromotionTest_ELTC_55@66a3ffec]" name="setUpBeforeClass" is-config="true" duration-ms="11" started-at="2019-03-20T13:05:55Z" finished-at="2019-03-20T13:05:55Z">
+    <test name="Default test" duration-ms="18453" started-at="2019-04-04T20:40:34Z" finished-at="2019-04-04T20:40:52Z">
+      <class name="com.training.sanity.tests.TeacherCreateCourseProjectTest_ELTC_84">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.TeacherCreateCourseProjectTest_ELTC_84@66a3ffec]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2019-04-04T20:40:34Z" finished-at="2019-04-04T20:40:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.CareerPromotionTest_ELTC_55@66a3ffec]" name="setUp" is-config="true" duration-ms="16630" started-at="2019-03-20T13:05:55Z" finished-at="2019-03-20T13:06:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.TeacherCreateCourseProjectTest_ELTC_84@66a3ffec]" name="setUp" is-config="true" duration-ms="8392" started-at="2019-04-04T20:40:34Z" finished-at="2019-04-04T20:40:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="CreateTrainingSessionTest()[pri:0, instance:com.training.sanity.tests.CareerPromotionTest_ELTC_55@66a3ffec]" name="CreateTrainingSessionTest" duration-ms="83670" started-at="2019-03-20T13:06:12Z" finished-at="2019-03-20T13:07:35Z">
+        <test-method status="PASS" signature="TeacherReportTest()[pri:2, instance:com.training.sanity.tests.TeacherCreateCourseProjectTest_ELTC_84@66a3ffec]" name="TeacherReportTest" duration-ms="9026" started-at="2019-04-04T20:40:42Z" finished-at="2019-04-04T20:40:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateTrainingSessionTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.CareerPromotionTest_ELTC_55@66a3ffec]" name="tearDown" is-config="true" duration-ms="2005" started-at="2019-03-20T13:07:35Z" finished-at="2019-03-20T13:07:37Z">
+        </test-method> <!-- TeacherReportTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.TeacherCreateCourseProjectTest_ELTC_84@66a3ffec]" name="tearDown" is-config="true" duration-ms="1004" started-at="2019-04-04T20:40:51Z" finished-at="2019-04-04T20:40:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.CareerPromotionTest_ELTC_55 -->
+      </class> <!-- com.training.sanity.tests.TeacherCreateCourseProjectTest_ELTC_84 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
